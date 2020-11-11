@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="894.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text fill="#3d9feb" layoutX="111.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500">
+         <font>
+            <Font name="Eras Bold ITC" size="21.0" />
+         </font>
+      </Text>
+      <VBox alignment="TOP_CENTER" fillWidth="false" layoutX="758.0" layoutY="21.0" prefHeight="107.0" prefWidth="101.0">
+         <children>
+            <ImageView fitHeight="85.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/381188.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#ae3939" strokeType="OUTSIDE" strokeWidth="0.0" text="Bart" textAlignment="CENTER">
+               <font>
+                  <Font name="Eras Medium ITC" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <Text fill="#ae3939" layoutX="723.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4990" textAlignment="RIGHT" AnchorPane.rightAnchor="125.71875">
+         <font>
+            <Font name="Eras Bold ITC" size="21.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="45.0" fitWidth="62.0" layoutX="235.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/playerShip1_blue.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="62.0" layoutX="534.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/playerShip1_red.png" />
+         </image>
+      </ImageView>
+      <HBox alignment="BOTTOM_LEFT" layoutX="11.0" layoutY="544.0" prefHeight="45.0" prefWidth="149.0" spacing="5.0">
+         <children>
+            <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/UI/playerLife1_blue.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/UI/playerLife1_blue.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="47.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/UI/playerLife1_blue.png" />
+               </image>
+            </ImageView>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <HBox alignment="BOTTOM_RIGHT" layoutX="734.0" layoutY="544.0" prefHeight="45.0" prefWidth="149.0" spacing="5.0">
+         <children>
+            <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="90.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/UI/playerLife1_red.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="127.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/UI/playerLife1_red.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="27.0" fitWidth="32.0" layoutX="127.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/UI/playerLife1_red.png" />
+               </image>
+            </ImageView>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </HBox>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="204.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="246.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="293.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="335.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="383.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="425.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="472.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="514.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="563.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="610.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="652.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="184.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="226.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="273.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="315.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="363.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="405.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="452.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="494.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="543.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="590.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="632.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlack5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="205.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="247.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="294.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="384.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="426.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="473.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="515.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="564.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="611.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="653.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyGreen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="185.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="227.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true" scaleX="0.5" scaleY="0.5" scaleZ="0.5">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/kenney_tankspack/PNG/Default_size/tank_explosion2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="274.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="364.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="406.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="453.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="495.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="544.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/kenney_tankspack/PNG/Default_size/tank_explosion3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="591.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="633.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/spaceshooter/PNG/Enemies/enemyBlue1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="7.0" layoutX="547.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Lasers/laserRed03.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="7.0" layoutX="562.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Lasers/laserRed03.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="7.0" layoutX="271.0" layoutY="447.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Lasers/laserBlue03.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="7.0" layoutX="272.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Lasers/laserBlue03.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="7.0" layoutX="242.0" layoutY="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Lasers/laserBlue03.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="489.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="486.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="482.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="484.0" layoutY="415.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="317.0" layoutY="356.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="327.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="337.0" layoutY="376.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="347.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="217.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="220.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="220.0" layoutY="430.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="223.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="289.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="292.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="292.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="295.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="510.0" layoutY="318.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="513.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="513.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="516.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="648.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="651.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="651.0" layoutY="388.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="5.0" layoutX="654.0" layoutY="414.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
+         </image>
+      </ImageView>
+      <VBox alignment="TOP_CENTER" fillWidth="false" layoutX="14.0" layoutY="14.0" prefHeight="107.0" prefWidth="101.0">
+         <children>
+            <ImageView fitHeight="85.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/lisa.gif" />
+               </image>
+            </ImageView>
+            <Text fill="#3d9feb" strokeType="OUTSIDE" strokeWidth="0.0" text="Lisa" textAlignment="CENTER">
+               <font>
+                  <Font name="Eras Medium ITC" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <ImageView fitHeight="65.0" fitWidth="74.0" layoutX="302.0" layoutY="383.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Meteors/meteorBrown_big3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="74.0" layoutX="635.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Meteors/meteorBrown_big3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="74.0" layoutX="494.0" layoutY="389.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Meteors/meteorBrown_big3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="65.0" fitWidth="74.0" layoutX="138.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/spaceshooter/PNG/Meteors/meteorBrown_big3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="532.0" layoutY="416.0" pickOnBounds="true" preserveRatio="true">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@images/kenney_tankspack/PNG/Default_size/tank_explosion2.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
