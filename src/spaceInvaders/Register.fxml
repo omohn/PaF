@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
@@ -59,6 +61,14 @@
                   <Font name="Droid Sans Bold" size="18.0" />
                </font>
             </Label>
+            <ImageView fitHeight="86.0" fitWidth="138.0" layoutX="64.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+               <image>
+                  <Image url="@images/spaceshooter/PNG/Enemies/enemyRed3.png" />
+               </image>
+            </ImageView>
             <TextField layoutX="515.0" layoutY="266.0" prefHeight="29.0" prefWidth="172.0">
                <font>
                   <Font name="Droid Sans Bold" size="20.0" />

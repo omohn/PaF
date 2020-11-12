@@ -75,6 +75,21 @@
                   <Font name="Droid Sans Bold" size="18.0" />
                </font>
             </Label>
+            <ImageView fitHeight="49.0" fitWidth="106.0" layoutX="186.0" layoutY="367.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/playerShip1_blue.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="106.0" layoutX="604.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/playerShip1_red.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="106.0" layoutX="678.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/spaceshooter/PNG/playerShip1_green.png" />
+               </image>
+            </ImageView>
          </children>
         </Pane>
     </children>
