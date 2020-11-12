@@ -5,22 +5,31 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartScreen">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartScreen">
    <children>
-      <Pane layoutY="-6.0" prefHeight="407.0" prefWidth="602.0" style="-fx-background-color: black;">
+      <Pane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: black;">
          <children>
-            <ImageView fitHeight="184.0" fitWidth="354.0" layoutX="118.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="200.0" fitWidth="564.0" layoutX="212.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@images/2880px-Space_invaders_logo.svg.png" />
                </image>
             </ImageView>
-            <TextField layoutX="221.0" layoutY="226.0" promptText="Player" />
-            <PasswordField layoutX="221.0" layoutY="268.0" promptText="Password" />
-            <Button layoutX="271.0" layoutY="307.0" mnemonicParsing="false" style="-fx-background-color: #007b8f;" text="Login" textFill="#ffe300">
+            <TextField layoutX="339.0" layoutY="312.0" promptText="Player">
                <font>
-                  <Font name="System Bold" size="12.0" />
+                  <Font name="Droid Sans Bold" size="18.0" />
+               </font></TextField>
+            <PasswordField layoutX="339.0" layoutY="373.0" promptText="Password">
+               <font>
+                  <Font name="Droid Sans Bold" size="18.0" />
+               </font></PasswordField>
+            <Button layoutX="414.0" layoutY="434.0" mnemonicParsing="false" style="-fx-background-color: #007b8f;" text="Login" textFill="#ffe300">
+               <font>
+                  <Font name="Droid Sans Bold" size="18.0" />
                </font></Button>
-            <Label layoutX="263.0" layoutY="346.0" text="Registration" textFill="#ffe300" />
+            <Label layoutX="409.0" layoutY="503.0" text="Registration" textFill="#ffe300">
+               <font>
+                  <Font name="Droid Sans Bold" size="14.0" />
+               </font></Label>
          </children>
       </Pane>
    </children>

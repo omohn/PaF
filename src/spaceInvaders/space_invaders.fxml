@@ -7,7 +7,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="894.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Text fill="#3d9feb" layoutX="111.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500">
+      <Text fill="#007b8f" layoutX="111.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500">
          <font>
             <Font name="Eras Bold ITC" size="21.0" />
          </font>
@@ -19,14 +19,14 @@
                   <Image url="@images/381188.gif" />
                </image>
             </ImageView>
-            <Text fill="#ae3939" strokeType="OUTSIDE" strokeWidth="0.0" text="Bart" textAlignment="CENTER">
+            <Text fill="#ffe300" strokeType="OUTSIDE" strokeWidth="0.0" text="Bart" textAlignment="CENTER">
                <font>
                   <Font name="Eras Medium ITC" size="18.0" />
                </font>
             </Text>
          </children>
       </VBox>
-      <Text fill="#ae3939" layoutX="723.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4990" textAlignment="RIGHT" AnchorPane.rightAnchor="125.71875">
+      <Text fill="#ffe300" layoutX="723.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4990" textAlignment="RIGHT" AnchorPane.rightAnchor="125.71875">
          <font>
             <Font name="Eras Bold ITC" size="21.0" />
          </font>
@@ -573,7 +573,7 @@
                   <Image url="@images/lisa.gif" />
                </image>
             </ImageView>
-            <Text fill="#3d9feb" strokeType="OUTSIDE" strokeWidth="0.0" text="Lisa" textAlignment="CENTER">
+            <Text fill="#007b8f" strokeType="OUTSIDE" strokeWidth="0.0" text="Lisa" textAlignment="CENTER">
                <font>
                   <Font name="Eras Medium ITC" size="18.0" />
                </font>

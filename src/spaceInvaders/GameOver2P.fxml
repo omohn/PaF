@@ -6,13 +6,13 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeScreen">
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.HomeScreen">
     <children>
-        <Pane layoutY="-6.0" prefHeight="407.0" prefWidth="602.0" style="-fx-background-color: black;">
+        <Pane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: black;">
          <children>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="31.0" prefHeight="173.0" prefWidth="470.0" text="GAME OVER" textAlignment="CENTER" wrapText="true">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="225.0" layoutY="100.0" prefHeight="173.0" prefWidth="470.0" text="GAME OVER" textAlignment="CENTER" wrapText="true">
                <font>
-                  <Font name="Droid Sans Bold" size="60.0" />
+                  <Font name="Droid Sans Bold" size="72.0" />
                </font>
                <textFill>
                   <LinearGradient endX="1.0" endY="0.8595238095238096" startX="1.0" startY="0.24047619047619048">
@@ -38,51 +38,51 @@
                <effect>
                   <GaussianBlur radius="4.0" />
                </effect></Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="267.0" prefHeight="44.0" prefWidth="185.0" text="................." textAlignment="CENTER" textFill="#ffe300">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="229.0" layoutY="400.0" prefHeight="44.0" prefWidth="185.0" text="................." textAlignment="CENTER" textFill="#ffe300">
                <font>
-                  <Font name="Droid Sans Bold" size="24.0" />
+                  <Font name="Droid Sans Bold" size="30.0" />
                </font>
                <effect>
                   <InnerShadow />
                </effect>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="116.0" layoutY="219.0" text="Player 1" textFill="#787dbc">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="264.0" layoutY="339.0" text="Player 1" textFill="#787dbc">
                <font>
-                  <Font name="Droid Sans Bold" size="24.0" />
+                  <Font name="Droid Sans Bold" size="30.0" />
                </font>
                <effect>
                   <InnerShadow />
                </effect>
             </Label>
-            <Label layoutX="18.0" layoutY="364.0" text="New Game" textFill="#007b8f">
+            <Label layoutX="20.0" layoutY="550.0" text="New Game" textFill="#007b8f">
                <font>
                   <Font name="Droid Sans Bold" size="18.0" />
                </font>
             </Label>
-            <Label layoutX="536.0" layoutY="364.0" text="Menu" textFill="#007b8f">
+            <Label layoutX="830.0" layoutY="550.0" text="Menu" textFill="#007b8f">
                <font>
                   <Font name="Droid Sans Bold" size="18.0" />
                </font>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="373.0" layoutY="219.0" text="Player 2" textFill="#787dbc">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="537.0" layoutY="339.0" text="Player 2" textFill="#787dbc">
                <font>
-                  <Font name="Droid Sans Bold" size="24.0" />
+                  <Font name="Droid Sans Bold" size="30.0" />
                </font>
                <effect>
                   <InnerShadow />
                </effect>
             </Label>
-            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="327.0" layoutY="267.0" prefHeight="44.0" prefWidth="185.0" text="................." textAlignment="CENTER" textFill="#ffe300">
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="502.0" layoutY="400.0" prefHeight="44.0" prefWidth="185.0" text="................." textAlignment="CENTER" textFill="#ffe300">
                <font>
-                  <Font name="Droid Sans Bold" size="24.0" />
+                  <Font name="Droid Sans Bold" size="30.0" />
                </font>
                <effect>
                   <InnerShadow />
                </effect>
             </Label>
-            <Label layoutX="245.0" layoutY="160.0" text="Scores" textFill="#007b8f">
+            <Label layoutX="398.0" layoutY="276.0" text="Scores" textFill="#007b8f">
                <font>
-                  <Font name="Droid Sans Bold" size="36.0" />
+                  <Font name="Droid Sans Bold" size="40.0" />
                </font>
             </Label>
          </children>
