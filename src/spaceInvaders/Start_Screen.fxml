@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.StartScreen">
+   <children>
+      <Pane layoutY="-6.0" prefHeight="407.0" prefWidth="602.0" style="-fx-background-color: black;">
+         <children>
+            <ImageView fitHeight="184.0" fitWidth="354.0" layoutX="118.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/2880px-Space_invaders_logo.svg.png" />
+               </image>
+            </ImageView>
+            <TextField layoutX="221.0" layoutY="226.0" promptText="Player" />
+            <PasswordField layoutX="221.0" layoutY="268.0" promptText="Password" />
+            <Button layoutX="271.0" layoutY="307.0" mnemonicParsing="false" style="-fx-background-color: #007b8f;" text="Login" textFill="#ffe300">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+            <Label layoutX="263.0" layoutY="346.0" text="Registration" textFill="#ffe300" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

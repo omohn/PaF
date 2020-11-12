@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Register">
+    <children>
+        <Pane layoutY="-6.0" prefHeight="407.0" prefWidth="602.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="122.0" layoutY="38.0" prefHeight="71.0" prefWidth="357.0" text="Registration" textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font name="Droid Sans Bold" size="60.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8595238095238096" startX="1.0" startY="0.24047619047619048">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="1.0" green="0.8901960849761963" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.511928743532014">
+                           <color>
+                              <Color red="0.47058823704719543" green="0.4901960790157318" blue="0.7372549176216125" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color green="0.48235294222831726" blue="0.5607843399047852" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <effect>
+                  <GaussianBlur radius="4.0" />
+               </effect></Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="160.0" text="Name" textFill="#ffe300">
+               <font>
+                  <Font name="Droid Sans Bold" size="36.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Label>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="122.0" layoutY="245.0" text="Password" textFill="#787dbc">
+               <font>
+                  <Font name="Droid Sans Bold" size="36.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Label>
+            <Label layoutX="536.0" layoutY="364.0" text="Back" textFill="#007b8f">
+               <font>
+                  <Font name="Droid Sans Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="325.0" layoutY="166.0" prefHeight="29.0" prefWidth="172.0">
+               <font>
+                  <Font name="Droid Sans Bold" size="18.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="325.0" layoutY="247.0" prefHeight="33.0" prefWidth="172.0">
+               <font>
+                  <Font name="Droid Sans Bold" size="12.0" />
+               </font>
+            </PasswordField>
+            <Button layoutX="276.0" layoutY="313.0" mnemonicParsing="false" style="-fx-background-color: #007b8f;" text="Save" textFill="#ffe300">
+               <font>
+                  <Font name="Droid Sans Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+        </Pane>
+    </children>
+</AnchorPane>
