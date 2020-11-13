@@ -5,14 +5,14 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="894.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Text fill="#007b8f" layoutX="111.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500">
+      <Text fill="#007b8f" layoutX="125.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500">
          <font>
-            <Font name="Eras Bold ITC" size="21.0" />
+            <Font name="Droid Sans Bold" size="20.0" />
          </font>
       </Text>
-      <VBox alignment="TOP_CENTER" fillWidth="false" layoutX="758.0" layoutY="21.0" prefHeight="107.0" prefWidth="101.0">
+      <VBox alignment="TOP_CENTER" fillWidth="false" layoutX="775.0" layoutY="20.0" prefHeight="107.0" prefWidth="101.0">
          <children>
             <ImageView fitHeight="85.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -21,14 +21,14 @@
             </ImageView>
             <Text fill="#ffe300" strokeType="OUTSIDE" strokeWidth="0.0" text="Bart" textAlignment="CENTER">
                <font>
-                  <Font name="Eras Medium ITC" size="18.0" />
+                  <Font name="Droid Sans Bold" size="20.0" />
                </font>
             </Text>
          </children>
       </VBox>
-      <Text fill="#ffe300" layoutX="723.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4990" textAlignment="RIGHT" AnchorPane.rightAnchor="125.71875">
+      <Text fill="#ffe300" layoutX="800.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4990" textAlignment="RIGHT" AnchorPane.rightAnchor="125.71875">
          <font>
-            <Font name="Eras Bold ITC" size="21.0" />
+            <Font name="Droid Sans Bold" size="20.0" />
          </font>
       </Text>
       <ImageView fitHeight="45.0" fitWidth="62.0" layoutX="235.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true">
@@ -566,7 +566,7 @@
             <Image url="@images/spaceshooter/PNG/Effects/fire00.png" />
          </image>
       </ImageView>
-      <VBox alignment="TOP_CENTER" fillWidth="false" layoutX="14.0" layoutY="14.0" prefHeight="107.0" prefWidth="101.0">
+      <VBox alignment="TOP_CENTER" fillWidth="false" layoutX="20.0" layoutY="20.0" prefHeight="107.0" prefWidth="101.0">
          <children>
             <ImageView fitHeight="85.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -575,7 +575,7 @@
             </ImageView>
             <Text fill="#007b8f" strokeType="OUTSIDE" strokeWidth="0.0" text="Lisa" textAlignment="CENTER">
                <font>
-                  <Font name="Eras Medium ITC" size="18.0" />
+                  <Font name="Droid Sans Bold" size="20.0" />
                </font>
             </Text>
          </children>
