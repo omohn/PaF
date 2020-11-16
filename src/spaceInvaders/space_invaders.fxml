@@ -354,7 +354,7 @@
             <Rectangle2D />
          </viewport>
          <image>
-            <Image url="@images/kenney_tankspack/PNG/Default_size/tank_explosion2.png" />
+            <Image url="@images/kenney_tankspack/PNG/Retina/tank_explosion2.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="274.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
@@ -402,7 +402,7 @@
             <Rectangle2D />
          </viewport>
          <image>
-            <Image url="@images/kenney_tankspack/PNG/Default_size/tank_explosion3.png" />
+            <Image url="@images/kenney_tankspack/PNG/Retina/tank_explosion3.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="591.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
@@ -605,7 +605,7 @@
             <Rectangle2D />
          </viewport>
          <image>
-            <Image url="@images/kenney_tankspack/PNG/Default_size/tank_explosion2.png" />
+            <Image url="@images/kenney_tankspack/PNG/Retina/tank_explosion2.png" />
          </image>
       </ImageView>
    </children>
